@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{33147D75-82FA-48DC-AC2D-5126FCD0F5D3}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA3C3E68-30F9-43EF-B17D-C4ECB8FE3A58" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOSCollectionViewBug/MainPage.xaml.cs">
+    <Files>
+      <File FileName="iOSCollectionViewBug/MainPage.xaml.cs" Line="15" Column="3" />
+      <File FileName="iOSCollectionViewBug/MainPage.xaml" Line="17" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="iOSCollectionViewBug" expanded="True">
+            <Node name="iOSCollectionViewBug" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.iOSCollectionViewBug FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA3C3E68-30F9-43EF-B17D-C4ECB8FE3A58" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

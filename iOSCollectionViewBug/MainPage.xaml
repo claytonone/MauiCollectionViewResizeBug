@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iOSCollectionViewBug.MainPage"
+             xmlns:local="clr-namespace:iOSCollectionViewBug"
+             x:DataType="local:MainPage">
+    <Grid RowDefinitions="auto,*">
+        <Button Grid.Row="0" Text="Add more text" Clicked="Button_Clicked" />
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Items}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="local:Item">
+                    <VerticalStackLayout>
+                        <Label Text="{Binding Content}" FontSize="16" Padding="10" TextColor="Grey" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
